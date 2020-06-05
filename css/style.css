@@ -1,0 +1,251 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+ul{
+  list-style-type: none;
+}
+
+footer {
+  background-color: #2F303A;
+}
+
+/*Шапка сайта*/
+
+.header-logo {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.header-list-item {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.header-list-item-link {
+  color: #212121;
+}
+
+.header-address-email {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: #757575;
+}
+
+.header-address-phone {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: #757575;
+}
+
+/*Подвал сайта*/
+
+.footer-logo {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-socialmedia-tittle{
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 2:
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/*Блок "Закзать услугу"*/
+
+.order-title {
+  text-align: center;
+  width: 696px;
+  height: 120px;
+  color: #ffffff;
+  background-color: #757575;
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.order-button {
+  font-family: inherit;
+  font-style: inherit;
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/*Блок "Преимуществ"*/
+
+.advantages-list-item-tittle {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.advantages-list-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*Блок "Чем мы занимаемся*/
+
+.our-work-tittle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+.our-work-list-item-tittle {
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2f303a;
+  width: 370px;
+  height: 70px;
+}
+
+/*Блок "Наша команда"*/
+
+.team{
+  background-color: #F5F4FA;
+}
+
+.team-tittle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+.team-list-item{
+  background-color: #ffffff;
+  width: 270px;
+  height: 420px;
+}
+
+.team-list-item-name {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  color: #212121;
+}
+
+.team-list-item-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: #757575;
+}
+
+/*Блок "Постоянные клиенты"*/
+
+.clients-tittle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+/*Меню фильтра для портфолио*/
+
+.portfolio-filter-button {
+  font-family: inherit;
+  font-style: inherit;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+}
+
+.portfolio-filter-button:hover {
+  font-family: inherit;
+  font-style: inherit;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+}
+
+/*Портфолио*/
+
+.portfolio-list-item-tittle{
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list-item-category{
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-list-item-text{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #FFFFFF;
+  background-color: black;
+  letter-spacing: 0.03em;
+}
