@@ -89,6 +89,7 @@ footer .address > a {
 
 footer .tittle {
   color: var(--second-tittle-color);
+  text-transform: uppercase;
 }
 
 .copyright {
